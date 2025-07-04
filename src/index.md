@@ -1,7 +1,7 @@
-# Curs de programació
+# UF1. Fonaments de Programació
 
-::: info Benvinguts al Curs
-Aquest curs està dissenyat per introduir-vos als fonaments essencials de la programació. Aprendreu els conceptes bàsics, les metodologies i les eines necessàries per començar la vostra trajectòria en el món del desenvolupament de programari.
+::: info Síntesi de la unitat
+Aquesta unitat està dissenyada per introduir-vos als fonaments essencials de la programació. Aprendreu els conceptes bàsics, les metodologies i les eines necessàries per començar la vostra trajectòria en el món del desenvolupament de programari.
 :::
 
 ::: tip Informació del curs
@@ -14,6 +14,8 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
 ![Logo CC](/img/logo-cc.png){logo}
 
 :::
+
+<!--
 
 ## Continguts del curs {.animate-title}
 
@@ -67,6 +69,8 @@ Aquest curs està dissenyat per introduir-vos als fonaments essencials de la pro
   Connexió a bases de dades i execució de consultes SQL amb JDBC.
 :::
 ::::
+
+-->
 
 <!--
 ## Metodologia {.animate-title}
