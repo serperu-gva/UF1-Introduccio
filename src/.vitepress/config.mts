@@ -37,7 +37,7 @@ export default ({
       }
     },
     ca: {
-      label: 'Català',
+      label: 'Valencià',
       lang: 'ca-ES',
       link: '/ca/',
       title: 'UF1 - Fonaments de Programació',

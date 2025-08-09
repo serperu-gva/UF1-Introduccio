@@ -46,7 +46,7 @@ Antes de desplegar, revisa:
   - Ejemplo: si tu repo es `MYUSER/MYREPO`, usa `base: '/MYREPO/'`.
   - Si publicas en una página de usuario/organización (usuario.github.io) o con dominio propio, usa `base: '/'`.
 - outDir: por defecto genera en `../docs` (desde `src`). No es necesario comitear `docs/` si despliegas con GitHub Pages via artifact (recomendado).
-- Idiomas: locales.root (ES) y locales.ca (Català). La navegación (nav) se define por-locale para traducir textos.
+- Idiomas: locales.root (ES) y locales.ca (Valencià). La navegación (nav) se define por-locale para traducir textos.
 - Otros: siteTitle, logo, sidebar, footer.
 
 ## Despliegue a GitHub Pages (rama separada gestionada por Pages)
