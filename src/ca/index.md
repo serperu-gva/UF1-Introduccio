@@ -1,9 +1,9 @@
 # UF01. Fonaments de Programació
 
 ::: tip Informació del curs
-**Professors:** Guillermo Garrido Portes / David Tur Sanmateu
+**Autors:** Guillermo Garrido Portes / David Tur Sanmateu
 
-**Curs Acadèmic:** 2024-2025
+**Any:** 2025
 
 **Centre:** CEEDCV - Centre Específic d'Educació a Distància de la Comunitat Valenciana
 
@@ -15,13 +15,16 @@
 Aquesta unitat està dissenyada per introduir-vos als fonaments essencials de la programació. Aprendreu els conceptes bàsics, les metodologies i les eines necessàries per començar la vostra trajectòria en el món del desenvolupament de programari.
 :::
 
-## Continguts del Curs {.animate-title}
+## 📋 Objectius del Curs {.animate-title}
 
 ::: details Accés Ràpid als Continguts
 
-- 📋 [**Objectius del Curs**](./objectius.md)  
-  Exploració dels objectius i competències a assolir
-
+- Comprendre el que és un algoritme.
+- Identificar i crear algoritmes en la vida real.
+- Conèixer el cicle de vida d'un programa.
+- Comprendre com es representen els algoritmes.
+- Conèixer els elements bàsics d'un algoritme i el seu significat.
+- Saber avaluar expressions i operadors.
 
 :::
 
@@ -38,29 +41,7 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i pr�
 
 ## Recursos addicionals {.animate-title}
 
-::: details 📚 Materials complementaris
-
-- [**API Java**](https://docs.oracle.com/javase/8/docs/api/)  
-- [**Manual oficial de Java (Oracle)**](https://docs.oracle.com/javase/tutorial/)  
-
-:::
-
-::: details 💻 Eines i programari necessari
-
-- [**NetBeans IDE**](https://netbeans.apache.org/front/main/download/index.html)  
-Entorn de desenvolupament integrat recomanat per programar en Java, amb suport per a projectes modulars i interfícies gràfiques.
-- [**Java Development Kit (JDK)**](https://www.oracle.com/java/technologies/downloads/)  
-Kit de desenvolupament Java necessari per compilar i executar programes. Es recomana la versió més actual (o, en tot cas, 11 o superior).
-
-:::
-
-::: details 🔗 Enllaços d'interès
-
-- [**Compilador Java Online**](https://pythontutor.com/java.html#mode=edit)  
-Compilador i debugger visual pas a pas, amb suport per a Java, Python, C i C++;
-- [**pildorasinformaticas (YouTube)**](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)  
-Canal molt conegut en espanyol amb tutorials clars sobre Java i programació orientada a objectes.
-- [**w3schools Java Tutorial**](https://www.w3schools.com/java/)  
-Guia interactiva i senzilla per començar amb Java des del navegador.
-
-:::
+- [Vídeo: Qué es un algoritme?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
+- [Vídeo: Els algoritmes en la vida quotidiana](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+- [Vídeo: Algoritmes per a principiants](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+- [Vídeo: Algoritme del sandwich (humor)](https://www.youtube.com/watch?v=ajkglMnByFM)

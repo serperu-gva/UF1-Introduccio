@@ -24,7 +24,6 @@ export default ({
           docFooter: { prev: 'Anterior', next: 'Siguiente' },
           nav: [
             { text: '🏠 Inicio', link: '/' },
-            { text: '📋 Objetivos', link: '/objectius' },
             { text: '📚 Contenidos', items: [
               { text: '1. Introducción', link: '/1-introduccio' },
               { text: '2. Cómo funcionan los ordenadores', link: '/2-funcionament-ordinadors' },
@@ -49,7 +48,6 @@ export default ({
           docFooter: { prev: 'Anterior', next: 'Següent' },
           nav: [
             { text: '🏠 Inici', link: '/ca/index' },
-            { text: '📋 Objectius', link: '/ca/objectius' },
             { text: '📚 Continguts', items: [
               { text: '1. Introducció', link: '/ca/1-introduccio' },
               { text: '2. Com funcionen els ordinadors', link: '/ca/2-funcionament-ordinadors' },
