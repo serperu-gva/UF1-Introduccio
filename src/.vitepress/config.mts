@@ -41,10 +41,10 @@ export default ({
       label: 'Català',
       lang: 'ca-ES',
       link: '/ca/',
-      title: 'UF1 - Fonaments de </br>Programació',
+      title: 'UF1 - Fonaments de Programació',
       description: 'Unitat 1 on s\'aborden els conceptes bàsics de programació.',
       themeConfig: {
-        siteTitle: 'Fonaments de Programació',
+        siteTitle: 'Fonaments de </br>Programació',
         outline: { label: 'En aquesta pàgina' },
           docFooter: { prev: 'Anterior', next: 'Següent' },
           nav: [
@@ -93,8 +93,8 @@ export default ({
             { text: "5. Elements d'un Programa", link: '/ca/5-elements' },
             { text: "💡Exemples", link: '/ca/6-exemples' },
             { text: "✏️ Exercicis", link: '/ca/7-exercicis' },
-            { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-            { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+            { text: '<img src="../img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+            { text: '<img src="../img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
           ]
         }
       ]
