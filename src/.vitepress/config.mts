@@ -98,7 +98,7 @@ export default ({
       ]
     },
     footer: {
-  message: '<img src="/img/logo-gva.png" alt="GVA" style="height:60px; margin: 0 auto; display:block;" />',
+      message: '<img src="/img/logo-autor.png" alt="Autor Principal" style="height:60px; margin: 0 auto; display:block;" />',
       copyright: 'Copyright © 2025'
     }
   }
