@@ -17,7 +17,7 @@ export default ({
       lang: 'es-ES',
       link: '/',
       title: 'UF1 - Fundamentos de Programación',
-      description: 'Unidad 1 donde se abordan los conceptos básicos de programación.',
+      description: 'Unidad 1 donde se abordan los conceptos de que es programar y los algoritmos.',
       themeConfig: {
         siteTitle: 'Fundamentos de </br>Programación',
         outline: { label: 'En esta página' },
@@ -41,7 +41,7 @@ export default ({
       lang: 'ca-ES',
       link: '/ca/',
       title: 'UF1 - Fonaments de Programació',
-      description: 'Unitat 1 on s\'aborden els conceptes bàsics de programació.',
+      description: 'Unitat 1 on s\'aborden els conceptes de que es programar i els algoritmes.',
       themeConfig: {
         siteTitle: 'Fonaments de </br>Programació',
         outline: { label: 'En aquesta pàgina' },

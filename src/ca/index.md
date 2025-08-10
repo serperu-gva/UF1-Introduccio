@@ -22,14 +22,9 @@ Aquesta unitat està dissenyada per introduir-vos als fonaments essencials de la
 Aquest tema se centra en els fonaments teòrics i conceptuals de la informàtica i la programació.
 
 - Objectiu 1.1: Comprendre com funcionen els ordinadors i els principis del pensament computacional.
-- Objectiu 1.2: Conéixer el cicle de vida d'una aplicació de programari.
-- Objectiu 1.3: Identificar els elements bàsics que conformen un programa informàtic (blocs de codi, instruccions, etc.).
-  
----
-
-| Criteri d'Avaluació | Objectius Didàctics |
-| :--- | :--- |
-| **RA01-a**. S'han identificat els blocs que componen l'estructura d'un programa informàtic. | **Objectiu 1.3** |
+- Objectiu 1.2: Identificar que es un algoritme.
+- Objectiu 1.3: Conéixer el cicle de vida d'una aplicació de programari.
+- Objectiu 1.4: Introduir els elements bàsics que conformen un programa informàtic.
 
 :::
 
