@@ -17,14 +17,19 @@ Aquesta unitat està dissenyada per introduir-vos als fonaments essencials de la
 
 ## 📋 Objectius del Curs {.animate-title}
 
-::: details Accés Ràpid als Continguts
+::: tip Objectius cuberts i relació amb RA
 
-- Comprendre el que és un algoritme.
-- Identificar i crear algoritmes en la vida real.
-- Conèixer el cicle de vida d'un programa.
-- Comprendre com es representen els algoritmes.
-- Conèixer els elements bàsics d'un algoritme i el seu significat.
-- Saber avaluar expressions i operadors.
+Aquest tema se centra en els fonaments teòrics i conceptuals de la informàtica i la programació.
+
+- Objectiu 1.1: Comprendre com funcionen els ordinadors i els principis del pensament computacional.
+- Objectiu 1.2: Conéixer el cicle de vida d'una aplicació de programari.
+- Objectiu 1.3: Identificar els elements bàsics que conformen un programa informàtic (blocs de codi, instruccions, etc.).
+  
+---
+
+| Criteri d'Avaluació | Objectius Didàctics |
+| :--- | :--- |
+| **RA01-a**. S'han identificat els blocs que componen l'estructura d'un programa informàtic. | **Objectiu 1.3** |
 
 :::
 
