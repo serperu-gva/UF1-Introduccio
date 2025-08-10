@@ -28,7 +28,7 @@ Aquesta unitat està dissenyada per introduir-vos als fonaments essencials de la
 
 :::
 
-## Metodologia {.animate-title}
+## ⚙ Metodologia {.animate-title}
 
 ::: tip Aprenentatge Actiu
 Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i pràctica:
@@ -39,7 +39,7 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i pr�
 - 📈 **Avaluació contínua** del progrés
 :::
 
-## Recursos addicionals {.animate-title}
+## 🔗 Recursos addicionals {.animate-title}
 
 - [Vídeo: Qué es un algoritme?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
 - [Vídeo: Els algoritmes en la vida quotidiana](https://www.youtube.com/watch?v=6hfOvs8pY1k)
