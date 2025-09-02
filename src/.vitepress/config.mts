@@ -1,7 +1,7 @@
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 export default ({
-  base: '/UF1/',
+  base: '/UF1-a7iCElUQWZlR6T5FBtZZ/',
   outDir: '../docs',
   markdown: {
     config(md) {
