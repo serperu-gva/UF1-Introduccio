@@ -1,7 +1,7 @@
 # UF01. Fonaments de Programació
 
 ::: tip Informació del curs
-**Autors:** Guillermo Garrido Portes / David Tur Sanmateu
+**Autors:** Guillermo Garrido Portes / David Tur Sanmateu /
 
 **Any:** 2025
 
