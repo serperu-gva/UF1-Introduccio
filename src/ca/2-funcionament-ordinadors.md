@@ -14,6 +14,7 @@ Imagina't que estàs cuinant una recepta:
 - **Tu (cervell humà)**: llegeixes la recepta pas a pas i fas cada acció
 - **CPU (cervell de l'ordinador)**: llegeix instruccions pas a pas i fa cada operació
 
+
 **Característiques importants:**
 
 - **Velocitat**: Un processador modern pot fer milions d'operacions per segon (com llegir milions d'instruccions de cuina per segon)
@@ -28,6 +29,10 @@ La memòria de l'ordinador és com els diferents llocs on guardem coses en casa 
 
 - **Memòria RAM**: És com la taula de la cuina on poses els ingredients mentre cuines. Quan acabes de cuinar, la taula s'esborra i queda lliure per a la següent tasca
 - **Disc dur**: És com l'armari de la cuina on guardes els ingredients de manera permanent. Fins i tot quan no estàs cuinant, les coses segueixen allí
+
+Altre símil es el de la biblioteca:
+- **Memòria RAM**: Es la taula on es posa el llibre, s'utilitza i despres es torna a la prestatgeria.
+- **Disc dur**:Es la prestatgeria on estan guardats els llibres.
 
 **Tipus de memòria:**
 

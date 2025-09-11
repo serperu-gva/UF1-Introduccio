@@ -97,8 +97,6 @@ Si ens centrem en aquest últim, s'ha de detallar els passos necessaris per a tr
 >   - Esperar que l'aigua calenta passe pel café mòlt
 =======
 >   - Esperar que l’aigua calenta passe pel café mòlt
->>>>>>> cc1fef8bd671b792ac8a3f09f6188646e24f3374
->>>>>>> a4c262c3d56e24ab9706213840acbdc4ed30acf5
 >   - Abocar el café en una tassa
 > - **Patrons**:
 >   - Sempre buscar els ingredients → preparar → servir
