@@ -132,7 +132,7 @@ A continuació es descriuen els tipus d'operadors més comuns:
   
   **Explicació**: S'assigna a la variable `missatge` el valor del resultat de l'operació que concatena la paraula `Hola` amb el valor de la variable `nom`.
   
-- **Operadors de Comparació:** `=`, `<>`, `<`, `>`, `<=`, `>=` Serveixen per a comparar condicions i sempre retornen V (Vertader) o F (Fals).
+- **Operadors de Comparació:** `=`, `<>` (en alguns lleguatges '!'), `<`, `>`, `<=`, `>=` Serveixen per a comparar condicions i sempre retornen V (Vertader) o F (Fals).
   > ***Exemple:***
   >
   > ```plaintext
@@ -140,6 +140,15 @@ A continuació es descriuen els tipus d'operadors més comuns:
   > ```
   
   **Explicació**: S'assigna a la variable `esValid` el valor del resultat de l'operació de comparació que verifica si el valor de la variable `edat` és major o igual a `18`. Si és així retornarà V, en cas contrari retornarà F.
+
+  > ***Exemple:***
+  >
+  > ```plaintext
+  > color ← !blanc
+  > ```
+  
+  **Explicació**: S'assigna a la variable `color` el valor del resultat de l'operació de negar la variable `color`. Qualsevol color retornarà V, i el blanc retornarà F.
+
 - **Operadors Lògics:** `I`, `O`, `NO` Serveixen per a unir múltiples operadors condicionals. Per a conéixer el resultat dels operadors lògics es poden utilitzar les seues taules de veritat.
 
 #### Taula de veritat
