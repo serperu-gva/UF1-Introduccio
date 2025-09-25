@@ -240,7 +240,7 @@ La següent taula mostra la prioritat i el direccionament en l'avaluació d'oper
 > ***Exemple:***
 >
 > ```plaintext
-> resultat ← (3 + 5) * 2 ^ 3 / (4 - 1) & " text " & (SI 5 > 3 I NO (4 = 5) O 6 <= 10)
+> resultat ← (3 + 5) * 2 ^ 3 / (4 - 1) & " text " & (5 > 3 I NO (4 = 5) O 6 <= 10)
 > ```
 >
 > **Explicació del càlcul del resultat**:
@@ -248,17 +248,17 @@ La següent taula mostra la prioritat i el direccionament en l'avaluació d'oper
 > 1. Parèntesi ():
 >    - (3 + 5) resulta en 8.
 >    - (4 - 1) resulta en 3.
->    - (SI 5 > 3 I NO (4 = 5) O 6 <= 10) és una expressió lògica que s'avaluarà més tard.
+>    - (5 > 3 I NO (4 = 5) O 6 <= 10) és una expressió lògica que s'avaluarà més tard.
 >
 >     ```plaintext
->     resultat ← 8 * 2 ^ 3 / 3 & " text " & (SI 5 > 3 I NO (4 = 5) O 6 <= 10)
+>     resultat ← 8 * 2 ^ 3 / 3 & " text " & (5 > 3 I NO (4 = 5) O 6 <= 10)
 >     ```
 >
 > 2. Potència ^:
 >    - 2 ^ 3 resulta en 8.
 >
 >     ```plaintext
->     resultat ← 8 * 8 / 3 & " text " & (SI 5 > 3 I NO (4 = 5) O 6 <= 10)
+>     resultat ← 8 * 8 / 3 & " text " & (5 > 3 I NO (4 = 5) O 6 <= 10)
 >     ```
 >
 > 3. Multiplicació i Divisió * /:
@@ -266,14 +266,14 @@ La següent taula mostra la prioritat i el direccionament en l'avaluació d'oper
 >    - 64 / 3 resulta en 21.33 (arrodonit a dos decimals).
 >
 >     ```plaintext
->     resultat ← 21.33 & " text " & (SI 5 > 3 I NO (4 = 5) O 6 <= 10)
+>     resultat ← 21.33 & " text " & (5 > 3 I NO (4 = 5) O 6 <= 10)
 >     ```
 >
 > 4. Concatenació &:
 >    - 21.33 & " text " resulta en "21.33 text ".
 >
 >     ```plaintext
->     resultat ← "21.33 text " & (SI 5 > 3 I NO (4 = 5) O 6 <= 10)
+>     resultat ← "21.33 text " & (5 > 3 I NO (4 = 5) O 6 <= 10)
 >     ```
 >
 > 5. Relacionals < <= > >= = <>:
@@ -282,21 +282,21 @@ La següent taula mostra la prioritat i el direccionament en l'avaluació d'oper
 >    - 6 <= 10 és Vertader.
 >
 >     ```plaintext
->     resultat ← "21.33 text " & (SI Vertader I NO Fals O Vertader)
+>     resultat ← "21.33 text " & (Vertader I NO Fals O Vertader)
 >     ```
 >
 > 6. Negació NO:
 >    - NO Fals és Vertader.
 >
 >     ```plaintext
->     resultat ← "21.33 text " & (SI Vertader I Vertader O Vertader)
+>     resultat ← "21.33 text " & (Vertader I Vertader O Vertader)
 >     ```
 >
 > 7. Conjunció I:
 >    - Vertader I Vertader és Vertader.
 >
 >     ```plaintext
->     resultat ← "21.33 text " & (SI Vertader O Vertader)
+>     resultat ← "21.33 text " & (Vertader O Vertader)
 >     ```
 >
 > 8. Disjunció O:
