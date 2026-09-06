@@ -264,7 +264,7 @@ Entre estos métodos encontraremos los tres métodos mencionados y, como vemos, 
 
 Haciendo clic sobre estos accederemos a la información ampliada, donde comprobaremos que no son estáticos.
 
-![Método no estático](/uf3/No_estàtic.jpg)
+![Método no estático](/uf3/No_estatic.jpg)
 
 Ahora completaremos el código de la clase tal como se indica a continuación.
 

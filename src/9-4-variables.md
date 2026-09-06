@@ -123,11 +123,11 @@ Los lenguajes de programación tienen palabras clave que no se pueden utilizar c
 
 == Java
 
-![Palabras clave](/uf3/palabras_clave_java.jpg)
+![Palabras clave](/uf3/paraules_clau_java.jpg)
 
 Además, el lenguaje reserva algunas palabras más, pero que hasta ahora no tienen una finalidad especificada:
 
-![Palabras reservadas](/uf3/palabras_reserv_java.jpg)
+![Palabras reservadas](/uf3/paraules_reserv_java.jpg)
 
 :::
 

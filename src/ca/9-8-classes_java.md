@@ -214,7 +214,7 @@ Entre aquests mètodes trobarem els tres mètodes esmentats i com en veiem cap �
 
 Fent clic sobre aquests accedirem a la informació ampliada on comprovarem que no són estàtics.
 
-![Mètode no estàtic](/uf3/No_estàtic.jpg)
+![Mètode no estàtic](/uf3/No_estatic.jpg)
 
 Ara completarem el codi de la classe tal com s'indica a continuació.
 
