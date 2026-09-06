@@ -45,23 +45,42 @@ Este curso sigue una metodología de aprendizaje activo, combinando teoría y pr
 
 ## 🔗 Recursos adicionales {.animate-title}
 
-- [Vídeo: ¿Qué es un algoritmo?]([https://www.youtube.com/watch?v=U3CGMyjzlvM](https://www.youtube.com/watch?v=U3CGMyjzlvM))
-- [Vídeo: Los algoritmos en la vida cotidiana]([https://www.youtube.com/watch?v=6hfOvs8pY1k](https://www.youtube.com/watch?v=6hfOvs8pY1k))
-- [Vídeo: Algoritmos para principiantes]([https://www.youtube.com/watch?v=6hfOvs8pY1k](https://www.youtube.com/watch?v=6hfOvs8pY1k))
-- [Vídeo: Algoritmo del sándwich (humor)]([https://www.youtube.com/watch?v=ajkglMnByFM](https://www.youtube.com/watch?v=ajkglMnByFM))
-- [Visual Studio Code]([https://code.visualstudio.com/](https://code.visualstudio.com/))  
+* [Vídeo: ¿Qué es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
+
+* [Vídeo: Los algoritmos en la vida cotidiana](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+
+* [Vídeo: Algoritmos para principiantes](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+
+* [Vídeo: Algoritmo del sándwich (humor)](https://www.youtube.com/watch?v=ajkglMnByFM)
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+
 Editor de código fuente abierto con una gran cantidad de extensiones para dar soporte a diversos lenguajes de programación, incluido Java.
-- [NetBeans IDE]([https://netbeans.apache.org/front/main/download/index.html](https://netbeans.apache.org/front/main/download/index.html))  
+
+* [NetBeans IDE](https://netbeans.apache.org/front/main/download/index.html)
+
 Entorno de desarrollo integrado recomendado para programar en Java, con soporte para proyectos modulares e interfaces gráficas.
-- [Java Development Kit (JDK)]([https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/))  
+
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
+
 Kit de desarrollo Java necesario para compilar y ejecutar programas. Se recomienda la versión más actual (o, en todo caso, 11 o superior).
-- [Git]([https://git-scm.com/](https://git-scm.com/))  
+
+* [Git](https://git-scm.com/)
+
 Sistema de control de versiones distribuido que permite gestionar proyectos de software de manera eficiente.
-- [**API Java**]([https://docs.oracle.com/javase/8/docs/api/](https://docs.oracle.com/javase/8/docs/api/))  
-- [**Manual oficial de Java (Oracle)**]([https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/))  
-- [**Compilador Java Online**]([https://pythontutor.com/java.html#mode=edit](https://pythontutor.com/java.html#mode=edit))  
-Compilador y depurador visual paso a paso, con soporte para Java, Python, C y C++;
-- [**pildorasinformaticas (YouTube)**]([https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk))  
+
+* [**API Java**](https://docs.oracle.com/javase/8/docs/api/)
+
+* [**Manual oficial de Java (Oracle)**](https://docs.oracle.com/javase/tutorial/)
+
+* [**Compilador Java Online**](https://pythontutor.com/java.html#mode=edit)
+
+Compilador y depurador visual paso a paso, con soporte para Java, Python, C y C++.
+
+* [**pildorasinformaticas (YouTube)**](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
+
 Canal muy conocido en español con tutoriales claros sobre Java y programación orientada a objetos.
-- [**w3schools Java Tutorial**]([https://www.w3schools.com/java/](https://www.w3schools.com/java/))  
+
+* [**w3schools Java Tutorial**](https://www.w3schools.com/java/)
+
 Guía interactiva y sencilla para comenzar con Java desde el navegador.

@@ -41,23 +41,42 @@ Aquest curs segueix una metodologia d'aprenentatge actiu, combinant teoria i pr�
 
 ## 🔗 Recursos addicionals {.animate-title}
 
-- [Vídeo: Qué es un algoritme?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
-- [Vídeo: Els algoritmes en la vida quotidiana](https://www.youtube.com/watch?v=6hfOvs8pY1k)
-- [Vídeo: Algoritmes per a principiants](https://www.youtube.com/watch?v=6hfOvs8pY1k)
-- [Vídeo: Algoritme del sandwich (humor)](https://www.youtube.com/watch?v=ajkglMnByFM)
-- [Visual Studio Code](https://code.visualstudio.com/)  
-Editor de codi font obert amb una gran quantitat d'extensions per a suportar diversos llenguatges de programació, incloent Java.
-- [NetBeans IDE](https://netbeans.apache.org/front/main/download/index.html)  
+* [Vídeo: Qué és un algorisme?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
+
+* [Vídeo: Els algorismes en la vida quotidiana](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+
+* [Vídeo: Algorismes per a principiants](https://www.youtube.com/watch?v=6hfOvs8pY1k)
+
+* [Vídeo: Algorisme del sandvitx (humor)](https://www.youtube.com/watch?v=ajkglMnByFM)
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+Editor de codi font obert amb una gran quantitat d'extensions per a donar suport a diversos llenguatges de programació, incloent-hi Java.
+
+* [NetBeans IDE](https://netbeans.apache.org/front/main/download/index.html)
+
 Entorn de desenvolupament integrat recomanat per programar en Java, amb suport per a projectes modulars i interfícies gràfiques.
-- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)  
-Kit de desenvolupament Java necessari per compilar i executar programes. Es recomana la versió més actual (o, en tot cas, 11 o superior).
-- [Git](https://git-scm.com/)  
+
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
+
+Kit de desenvolupament Java necessari per a compilar i executar programes. Es recomana la versió més actual (o, en tot cas, 11 o superior).
+
+* [Git](https://git-scm.com/)
+
 Sistema de control de versions distribuït que permet gestionar projectes de programari de manera eficient.
-- [**API Java**](https://docs.oracle.com/javase/8/docs/api/)  
-- [**Manual oficial de Java (Oracle)**](https://docs.oracle.com/javase/tutorial/)  
-- [**Compilador Java Online**](https://pythontutor.com/java.html#mode=edit)  
-Compilador i debugger visual pas a pas, amb suport per a Java, Python, C i C++;
-- [**pildorasinformaticas (YouTube)**](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)  
+
+* [**API Java**](https://docs.oracle.com/javase/8/docs/api/)
+
+* [**Manual oficial de Java (Oracle)**](https://docs.oracle.com/javase/tutorial/)
+
+* [**Compilador Java Online**](https://pythontutor.com/java.html#mode=edit)
+
+Compilador i depurador visual pas a pas, amb suport per a Java, Python, C i C++.
+
+* [**pildorasinformaticas (YouTube)**](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
+
 Canal molt conegut en espanyol amb tutorials clars sobre Java i programació orientada a objectes.
-- [**w3schools Java Tutorial**](https://www.w3schools.com/java/)  
+
+* [**w3schools Java Tutorial**](https://www.w3schools.com/java/)
+
 Guia interactiva i senzilla per començar amb Java des del navegador.
