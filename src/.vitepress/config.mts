@@ -16,22 +16,32 @@ export default ({
       label: 'Español',
       lang: 'es-ES',
       link: '/',
-      title: 'UF1 - Fundamentos de Programación',
-      description: 'Unidad 1 donde se abordan los conceptos de que es programar y los algoritmos.',
+      title: 'UF1 - Introducción a la Programación y Java',
+      description: 'Unidad 1 donde se abordan los conceptos de que es programar y los algoritmos y se introduce Java y los entornos de programación.',
       themeConfig: {
-        siteTitle: 'Fundamentos de </br>Programación',
+        siteTitle: 'Introducción a la Programación <br> y Java',
         outline: { label: 'En esta página' },
           docFooter: { prev: 'Anterior', next: 'Siguiente' },
           nav: [
             { text: '🏠 Inicio', link: '/' },
             { text: '📚 Contenidos', items: [
               { text: '1. Introducción', link: '/1-introduccio' },
-              { text: '2. Cómo funcionan los ordenadores', link: '/2-funcionament-ordinadors' },
-              { text: '3. Pensamiento computacional', link: '/3-pensament-computacional' },
-              { text: '4. Ciclo de vida', link: '/4-cicle-vida' },
-              { text: "5. Elementos de un programa", link: '/5-elements' },
-              { text: '💡Ejemplos', link: '/6-exemples' },
-              { text: '✏️ Ejercicios', link: '/7-exercicis' },
+              { text: '2. Programas y algoritmos', link: '/2-Programa-algoritme' },
+              { text: '3. Lenguajes de programación e IDEs', link: '/3-Llenguatges-programacion-IDEs' },
+              { text: '4. IDE populares para el desarrollo', link: '/4-tipus_ides' },
+              { text: "5. Extensiones de un IDE", link: '/5-extensions' },
+              { text: "6. Configurando Visual Studio Code", link: '/6-guia_vsc' },
+              { text: "7. Java por dentro. ¿Cómo funciona Java?", link: '/7-Java-per-dins' },
+              { text: "8. Gestión de un Proyecto", link: '/8-projectes-java' },
+              { text: "9.1 Características de Java", link: '/9-1-Caracteristiques_Java' },
+                { text: "9.2 Elementos básicos", link: '/9-2-elements' },
+                { text: "9.3 Tipos de datos", link: '/9-3-dades' },
+                { text: "9.4 Declaración de variables", link: '/9-4-variables' },
+                { text: "9.5 Operadores", link: '/9-5-operadors' },
+                { text: "9.6 Literales", link: '/9-6-literals' },
+                { text: "9.7 Entrada y salida estándar", link: '/9-7-ioestandard' },
+                { text: "9.8 Las clases Math, String y Scanner", link: '/9-8-classes_java' },
+                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' }
             ]}
           ]
       }
@@ -40,22 +50,32 @@ export default ({
       label: 'Valencià',
       lang: 'ca-ES',
       link: '/ca/',
-      title: 'UF1 - Fonaments de Programació',
-      description: 'Unitat 1 on s\'aborden els conceptes de que es programar i els algoritmes.',
+      title: 'UF1 - Introducció a la Programació i Java',
+      description: 'Unitat 1 on es tracten els conceptes de què és programar i que són els algoritmes algoritmos i s´introdueix Java y los entorns de programació.',
       themeConfig: {
-        siteTitle: 'Fonaments de </br>Programació',
+        siteTitle: 'Introducció a la Programació <br> i Java',
         outline: { label: 'En aquesta pàgina' },
           docFooter: { prev: 'Anterior', next: 'Següent' },
           nav: [
             { text: '🏠 Inici', link: '/ca/index' },
             { text: '📚 Continguts', items: [
               { text: '1. Introducció', link: '/ca/1-introduccio' },
-              { text: '2. Com funcionen els ordinadors', link: '/ca/2-funcionament-ordinadors' },
-              { text: '3. Pensament-computacional', link: '/ca/3-pensament-computacional' },
-              { text: '4. Cicle de Vida', link: '/ca/4-cicle-vida' },
-              { text: "5. Elements d'un Programa", link: '/ca/5-elements' },
-              { text: "💡Exemples", link: '/ca/6-exemples' },
-              { text: "✏️ Exercicis", link: '/ca/7-exercicis' },
+              { text: '2. Programes i algoritmes', link: '/ca/2-Programa-algoritme' },
+              { text: '3. Llenguatges de programació i IDEs', link: '/ca/3-Llenguatges-programacion-IDEs' },
+              { text: '4. IDEs Populars per al Desenvolupament', link: '/ca/4-tipus_ides' },
+              { text: "5. Extensions d'un IDE", link: '/ca/5-extensions' },
+              { text: "6. Configurant Visual Studio Code", link: '/ca/6-guia_vsc' },
+              { text: "7. Java per dins. Com funciona Java?", link: '/ca/7-Java-per-dins' },
+              { text: "8. Gestió d'un proyecte", link: '/ca/8-projectes-java' },
+              { text: "9. Característiques de Java", link: '/ca/9-1-Caracteristiques_Java' },
+                { text: "9.2 Elements bàsics", link: '/ca/9-2-elements' },
+                { text: "9.3 Tipus de dades", link: '/ca/9-3-dades' },
+                { text: "9.4 Declaració de variables", link: '/ca/9-4-variables' },
+                { text: "9.5 Operadors", link: '/ca/9-5-operadors' },
+                { text: "9.6 Literals", link: '/ca/9-6-literals' },
+                { text: "9.7 Eixida i entrada estàndard", link: '/ca/9-7-ioestandard' },
+                { text: "9.8 Les classes Math, String i Scanner", link: '/ca/9-8-classes_java' },
+                { text: "9.9 Exemple senzill", link: '/ca/9-9-exemple' }
             ]}
           ]
       }
@@ -71,28 +91,46 @@ export default ({
       '/': [
         { text: '📚 Contenidos', items: [
             { text: '1. Introducción', link: '/1-introduccio' },
-            { text: '2. Cómo funcionan los ordenadores', link: '/2-funcionament-ordinadors' },
-            { text: '3. Pensamiento computacional', link: '/3-pensament-computacional' },
-            { text: '4. Ciclo de vida', link: '/4-cicle-vida' },
-            { text: "5. Elementos de un programa", link: '/5-elements' },
-            { text: '💡Ejemplos', link: '/6-exemples' },
-            { text: '✏️ Ejercicios', link: '/7-exercicis' },
-            { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-            { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+              { text: '2. Programas y algoritmos', link: '/2-Programa-algoritme' },
+              { text: '3. Lenguajes de programación e IDEs', link: '/3-Llenguatges-programacion-IDEs' },
+              { text: '4. IDE populares para el desarrollo', link: '/4-tipus_ides' },
+              { text: "5. Extensiones de un IDE", link: '/5-extensions' },
+              { text: "6. Configurando Visual Studio Code", link: '/6-guia_vsc' },
+              { text: "7. Java por dentro. ¿Cómo funciona Java?", link: '/7-Java-per-dins' },
+              { text: "8. Gestión de un Proyecto", link: '/8-projectes-java' },
+              { text: "9.1 Características de Java", link: '/9-1-Caracteristiques_Java' },
+                { text: "9.2 Elementos básicos", link: '/9-2-elements' },
+                { text: "9.3 Tipos de datos", link: '/9-3-dades' },
+                { text: "9.4 Declaración de variables", link: '/9-4-variables' },
+                { text: "9.5 Operadores", link: '/9-5-operadors' },
+                { text: "9.6 Literales", link: '/9-6-literals' },
+                { text: "9.7 Entrada y salida estándar", link: '/9-7-ioestandard' },
+                { text: "9.8 Las clases Math, String y Scanner", link: '/9-8-classes_java' },
+                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' }
           ]
         }
       ],
       '/ca/': [
         { text: '📚 Continguts', items: [
-            { text: '1. Introducció', link: '/ca/1-introduccio' },
-            { text: '2. Com funcionen els ordinadors', link: '/ca/2-funcionament-ordinadors' },
-            { text: '3. Pensament-computacional', link: '/ca/3-pensament-computacional' },
-            { text: '4. Cicle de Vida', link: '/ca/4-cicle-vida' },
-            { text: "5. Elements d'un Programa", link: '/ca/5-elements' },
-            { text: "💡Exemples", link: '/ca/6-exemples' },
-            { text: "✏️ Exercicis", link: '/ca/7-exercicis' },
-            { text: '<img src="../img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-            { text: '<img src="../img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+            { text: '🏠 Inici', link: '/ca/index' },
+            { text: '📚 Continguts', items: [
+              { text: '1. Introducció', link: '/ca/1-introduccio' },
+              { text: '2. Programes i algoritmes', link: '/ca/2-Programa-algoritme' },
+              { text: '3. Llenguatges de programació i IDEs', link: '/ca/3-Llenguatges-programacion-IDEs' },
+              { text: '4. IDEs Populars per al Desenvolupament', link: '/ca/4-tipus_ides' },
+              { text: "5. Extensions d'un IDE", link: '/ca/5-extensions' },
+              { text: "6. Configurant Visual Studio Code", link: '/ca/6-guia_vsc' },
+              { text: "7. Java per dins. Com funciona Java?", link: '/ca/7-Java-per-dins' },
+              { text: "8. Gestió d'un proyecte", link: '/ca/8-projectes-java' },
+              { text: "9. Característiques de Java", link: '/ca/9-1-Caracteristiques_Java' },
+                { text: "9.2 Elements bàsics", link: '/ca/9-2-elements' },
+                { text: "9.3 Tipus de dades", link: '/ca/9-3-dades' },
+                { text: "9.4 Declaració de variables", link: '/ca/9-4-variables' },
+                { text: "9.5 Operadors", link: '/ca/9-5-operadors' },
+                { text: "9.6 Literals", link: '/ca/9-6-literals' },
+                { text: "9.7 Eixida i entrada estàndard", link: '/ca/9-7-ioestandard' },
+                { text: "9.8 Les classes Math, String i Scanner", link: '/ca/9-8-classes_java' },
+                { text: "9.9 Exemple senzill", link: '/ca/9-9-exemple' }
           ]
         }
       ]

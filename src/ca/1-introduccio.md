@@ -12,4 +12,3 @@ Per a crear un programa efectiu, el programador necessita:
 
 Este procés de transformació pas a pas és el que anomenem un algoritme, que és com el cor de qualsevol programa.
 
-Però per a comprendre completament com funciona la programació, també és important entendre com treballen físicament els ordinadors que executen els nostres programes. Més enllà del processament d'informació per a resoldre problemes, els ordinadors són màquines complexes amb components electrònics que transformen les nostres instruccions en accions reals.
