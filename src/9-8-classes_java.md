@@ -248,7 +248,7 @@ La clase Scanner tiene una serie de métodos que no son **estáticos**, como **n
 
 Aunque esto se verá detalladamente más adelante, para saber qué paquete debemos importar podemos consultarlo por internet en la web Java API y buscar la clase **Scanner**. Al principio veremos que nos indica en qué paquete se encuentra y, por tanto, este será el que debemos importar.
 
-![Clase Scanner](/uf3/Clase_Scanner.jpg)
+![Clase Scanner](/uf3/Classe_Scanner.jpg)
 
 Igualmente, si avanzamos en la página, más adelante nos indica cuáles son los constructores de la clase, que ya hemos explicado que sirven para instanciar los objetos o variables que utilizaremos de esta clase.
 
