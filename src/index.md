@@ -6,6 +6,8 @@
 
 **Año:** 2025
 
+![Logo CC](/img/logo-cc.png){logo}
+
 :::
 
 ::: info Síntesis de la unidad
