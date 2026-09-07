@@ -1,4 +1,4 @@
-# UF01. Fonaments de Programació
+# UF01. Introducció a la Programació i Java
 
 ::: tip Informació del curs
 **Autors:** Guillermo Garrido Portes / David Tur Sanmateu / María Bañuls / Sergio Pérez

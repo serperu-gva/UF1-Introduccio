@@ -1,4 +1,4 @@
-# UF01. Fundamentos de Programación
+# UF01. Introducción a la Programación y Java
 
 ::: tip Información del curso
 
