@@ -95,7 +95,7 @@ Normalmente es necesario inicializar un objeto o estructura que permita leer de 
 == Java
 
 ```java
-Scanner reader = new Scanner(System.in);
+Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
 ```
 
 :::
@@ -107,7 +107,7 @@ Una vez inicializado, podemos utilizarlo para leer diferentes tipos de datos:
 == Java
 
 ```java
-String texto = reader.nextLine();
+String texto = teclado.nextLine();
 ```
 
 :::
@@ -126,12 +126,18 @@ Los métodos disponibles para leer diferentes tipos de datos suelen incluir:
 
 == Java
 
-Para poder utilizar la clase Scanner es necesario importarla:
+Para poder utilizar la clase Scanner es necesario importar dos de los archivos que contiene Java internamente:
 
 ```java
 import java.util.Scanner;
+import java.util.Locale;
 ```
 
+Aunque por simplicidad, podemos importar todos los archivos del paquete (package) util con solo 1 instrucción:
+
+```java
+import java.util.*;
+```
 :::
 
 **Ejemplo:** leemos una cadena de texto y la mostramos por pantalla:
@@ -141,7 +147,7 @@ import java.util.Scanner;
 == Java
 
 ```java
-import java.util.Scanner;
+import java.util.*;
 
 public class EjemploScanner{
 
@@ -149,11 +155,11 @@ public class EjemploScanner{
 
      String nombre;
 
-     Scanner entrada = new Scanner (System.in);
+     Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
 
      System.out.println ("Introduce tu nombre: ");
 
-     nombre = entrada.nextLine();
+     nombre = teclado.nextLine();
 
      System.out.println ("Hola " + nombre);
 
@@ -189,11 +195,11 @@ public class EjemploScanner{
 
      double radio, area, circunferencia;
 
-     Scanner entrada = new Scanner (System.in);
+     Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
 
      System.out.println ("Introduce el radio: ");
 
-     radio = entrada.nextDouble();
+     radio = teclado.nextDouble();
 
      area = Math.PI * Math.pow(radio, 2);
 
