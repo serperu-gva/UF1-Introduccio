@@ -95,7 +95,21 @@ Normalmente es necesario inicializar un objeto o estructura que permita leer de 
 == Java
 
 ```java
-Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
+static Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
+```
+
+:::
+
+Este objeto, lo crearemos justo antes de la línea
+
+::: tabs
+
+== Java
+
+```java
+static Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
+
+public static void main(String args[])
 ```
 
 :::
@@ -151,11 +165,11 @@ import java.util.*;
 
 public class EjemploScanner{
 
+static Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
+
    public static void main(String[] args){
 
      String nombre;
-
-     Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
 
      System.out.println ("Introduce tu nombre: ");
 
@@ -191,11 +205,11 @@ import java.util.Scanner;
 
 public class EjemploScanner{
 
+   static Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
+
    public static void main(String[] args){
 
      double radio, area, circunferencia;
-
-     Scanner teclado = new Scanner (System.in).useLocale(Locale.US);
 
      System.out.println ("Introduce el radio: ");
 
