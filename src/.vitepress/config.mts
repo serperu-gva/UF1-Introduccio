@@ -41,7 +41,8 @@ export default ({
                 { text: "9.6 Literales", link: '/9-6-literals' },
                 { text: "9.7 Entrada y salida estándar", link: '/9-7-ioestandard' },
                 { text: "9.8 Las clases Math, String y Scanner", link: '/9-8-classes_java' },
-                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' }
+                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' },
+                { text: "10 Clase String", link: '/10-Clase-string' }
             ]}
           ]
       }
@@ -106,7 +107,8 @@ export default ({
                 { text: "9.6 Literales", link: '/9-6-literals' },
                 { text: "9.7 Entrada y salida estándar", link: '/9-7-ioestandard' },
                 { text: "9.8 Las clases Math, String y Scanner", link: '/9-8-classes_java' },
-                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' }
+                { text: "9.9 Ejemplo sencillo", link: '/9-9-exemple' },
+                { text: "10 Clase String", link: '/10-Clase-string' }
           ]
         }
       ],

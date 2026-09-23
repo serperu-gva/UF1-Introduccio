@@ -1,4 +1,4 @@
-# 9.8. Las clases Math, String y Scanner
+# 9.8. Las clases Math y Scanner
 
 Todo programa Java debe estar compuesto por al menos una clase.
 
@@ -164,73 +164,6 @@ public class UF04EjemploClaseMath {
 
 :::
 
-## La clase String
-
-Como ya hemos comentado, para la gestión de los datos de tipo carácter en Java no existe un tipo de datos primitivo, sino que esto se realiza a través de la clase **String**.
-
-Para la definición de variables lo haremos como lo hacíamos con los tipos de datos primitivos.
-
-`String texto="Primer texto"`
-
-En este caso, texto es una variable objeto o instancia de la clase **String**.
-
-String, como clase que es, tiene sus métodos. Así, el método **length()** nos permite saber la longitud de una cadena de caracteres, **charAt()** nos permite conocer la posición de un carácter en una cadena, **substring()** permite extraer una subcadena de una cadena a partir de una posición y un número de caracteres a extraer, o **equals()** nos indica si dos cadenas son iguales o no.
-
-::: info Nota:
-
-Hay que tener en cuenta que la primera posición de una cadena no es la 1 sino la 0.
-
-:::
-
-Los métodos de esta clase no están declarados como **estáticos**. Por eso, para utilizarlos necesitaremos **instanciar una variable de tipo String** mediante un **constructor**.
-
-Un constructor nos permitirá instanciar los objetos que utilizaremos de esta clase y tiene el mismo nombre que la clase. Podemos encontrarnos con clases que tienen varios constructores con el mismo nombre, pero diferentes parámetros, es decir, que son para diferentes usos. De momento, nos quedaremos con esta idea y ya profundizaremos más adelante. En nuestro caso utilizaremos el primer constructor.
-
-![Instancia String](/uf3/Instancia_String.jpg)
-
-**Ejemplo de la clase String:**
-
-
-
-::: tabs Codi
-
-
-
-== Java
-
-
-
-```java
-
-public class UF04EjemploClaseString {
-
-    public static void main(String[] args) {
-
-        
-
-        String descartes="Pienso, luego existo";
-
-        System.out.println("Descartes dice: " + descartes);
-
-        System.out.println("Lo que dice Descartes tiene una longitud de " + descartes.length() + " letras");
-
-        System.out.println("Lo que dice Descartes comienza por la letra " + descartes.charAt(0));
-
-        int ultimaLetra=descartes.length();
-
-        System.out.println("La última letra es " + descartes.charAt(ultimaLetra-1));
-
-        System.out.println(descartes.substring(0, 16));
-
-    }
-
-}
-
-```
-
-
-
-:::
 
 ## La clase Scanner
 
@@ -284,15 +217,10 @@ Como vemos, primero se instancia la clase Scanner creando el objeto "entrada", q
 
 public class UF04EjemploClaseScanner1 {
 
+    // Instanciamos la clase Scanner para realizar las entradas
+    static Scanner entrada = new Scanner (System.in).useLocale(Locale.US);
+
     public static void main(String[] args) {
-
-
-
-        // Instanciamos la clase Scanner para realizar las entradas
-
-        Scanner entrada = new Scanner(System.in);
-
-
 
         // Solicitamos el primer dato de tipo texto a través del objeto Scanner creado
 
@@ -307,6 +235,8 @@ public class UF04EjemploClaseScanner1 {
         System.out.println("Introduce tu edad");
 
         int edad=entrada.nextInt();
+        
+        entrada.nextLine();
 
 
 
@@ -353,10 +283,9 @@ Veamos otro ejemplo.
 public class UF04EjemploClaseScanner2 {
 
  
+    static Scanner entrada = new Scanner (System.in).useLocale(Locale.US);
 
     public static void main(String[] args) {
-
-        Scanner entrada = new Scanner(System.in);
 
         int valor = 0;
 
